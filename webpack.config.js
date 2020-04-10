@@ -1,5 +1,4 @@
 const path = require('path');
-// const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
     entry: './src/index.js',
@@ -11,7 +10,7 @@ module.exports = {
         rules: [
             {
                 test: /\.(js|jsx)$/,
-                exclude: /node_modules›/,
+                exclude: /node_modules/,
                 loader: 'babel-loader',
             },
             {
@@ -21,13 +20,15 @@ module.exports = {
                         loader: "html-loader"
                     }
                 ]
+            },
+            {
+                test: /\.scss$/,
+                use: ['style-loader', 'css-loader', 'sass-loader']
             }
         ],
     },
-    // plugins: [
-    //     new HtmlWebPackPlugin({
-    //         template: "./public/index.html",
-    //         filename: "./index.html"
-    //     })
-    // ]
+    devtool: 'cheap-module-eval-source-map',
+    devServer: {
+        contentBase: path.join(__dirname, 'public')
+    }
 };

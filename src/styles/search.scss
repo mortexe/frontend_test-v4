@@ -1,0 +1,13 @@
+.align-search {
+  width: 35%;
+  padding: 15px;
+
+  #r-search {
+    width: 100%;
+  }
+
+  #r-search::placeholder {
+    color: rgb(166, 166, 166);
+    padding-left: 15px;
+  }
+}

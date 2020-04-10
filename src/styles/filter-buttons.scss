@@ -1,0 +1,29 @@
+.filter-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+
+  .title {
+    font-size: 12px;
+    font-weight: 100;
+    padding-top: 6px;
+  }
+
+  .button-container {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: rgb(238, 172, 87);
+    border-radius: 5px;
+    margin: 5px;
+
+    p {
+      margin: auto;
+      padding: 0 5px 0 5px;
+      color: rgb(245, 245, 245);
+    }
+  }
+}
