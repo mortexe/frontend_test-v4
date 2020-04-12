@@ -7,11 +7,11 @@
 ##### with Yarn
 
 ```
-$ yarn add dribbblejs
+$ yarn
 ```
 
 ##### or with NPM
 
 ```
-$ npm install dribbblejs
+$ npm install
 ```
