@@ -9,9 +9,8 @@
     "react-lazy-load-image-component": "^1.4.3"
   },
   "scripts": {
-    "start": "webpack --mode development",
-    "build": "webpack --mode production",
-    "dev": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
