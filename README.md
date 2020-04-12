@@ -2,7 +2,7 @@
 
 ### Install node_modules
 
-#### Navigate to folder root
+Navigate to folder root
 
 ```
 $ yarn
@@ -25,11 +25,11 @@ $ node server.js
 #### Start Webpack dev server
 
 ```
-$ yarn start
+$ yarn run dev
 ```
 
 ##### or
 
 ```
-$ npm start
+$ npm run dev
 ```
