@@ -2,7 +2,7 @@
 
 ### Install node_modules
 
-##### with Yarn
+#### Navigate to folder root
 
 ```
 $ yarn
