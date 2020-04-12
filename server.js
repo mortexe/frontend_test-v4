@@ -10,7 +10,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.listen(port, () => console.log(`Running server on port ${port}`));
+app.listen(port, () => console.log(`Server is running on port ${port}`));
 
 app.get('/fetch_videos', (req, res) => {
     const dir = path.join(__dirname, '/src/api/data');
