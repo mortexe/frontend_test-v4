@@ -7,7 +7,7 @@ export default function SearchButton(props) {
         id="r-search"
         type="text"
         placeholder="Search..."
-        onKeyUp={props.input}
+        onChange={props.input}
       />
     </div>
   );
